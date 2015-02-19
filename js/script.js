@@ -107,13 +107,13 @@
              myflag = true;
              $('header').animate({height: '60px'}, 500);
              $('.links').animate({fontSize: '22px'}, 500);
-             $('.logo img').animate({height: '76px'}, 500);
+             $('.logo').animate({height: '76px'}, 500);
         }
         else  {
             if (myflag) {
                 $('header').animate({height: '50px'}, 500);
                 $('.links').animate({fontSize: '18px'}, 500);
-                $('.logo img').animate({height: '60px'}, 500);
+                $('.logo').animate({height: '60px'}, 500);
                 myflag = false;
             }
         }
